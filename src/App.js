@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import TimeDiv from "./time";
+import AboutUs from "./aboutus";
+import Profile from "./profiles";
+import Calender from "./calender";
+import LearnMicro from "./learnmicro";
+import SearchBar from "./searchbar";
+import Expertise from "./experties"
+import MessageNotifi from "./messageNotif";
+import Taske from "./task_page";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () =>{
+   return(
+     <div className="main_div">
+       <TimeDiv />
+       <AboutUs />
+       <LearnMicro />
+       <Profile />
+       <Calender />
+       <SearchBar />
+       <Expertise />
+       <MessageNotifi />
+       <Taske />
+     </div>
+     
+    );
+};
 
 export default App;
