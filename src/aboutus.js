@@ -11,12 +11,15 @@ const AboutUs = () =>{
 
          </ul>
          <br/>
+         <div className="inner_child_time">
          <h4>Numan Ahmad</h4>
          <p className="about_para">UI / UX Designer</p>
          <br/>
          <h4>About</h4>
          <p>Hi my name is Numan Ahmad and i workig now as a front-end developer and also leaerning about Artifical Intelligince</p>
-     </div>
+         </div>
+         </div>
+    
      
  );
 };

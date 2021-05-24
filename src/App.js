@@ -8,6 +8,7 @@ import SearchBar from "./searchbar";
 import Expertise from "./experties"
 import MessageNotifi from "./messageNotif";
 import Taske from "./task_page";
+import Downloading from './downloading';
 
 const App = () =>{
    return(
@@ -17,6 +18,7 @@ const App = () =>{
        <LearnMicro />
        <Profile />
        <Calender />
+       <Downloading />
        <SearchBar />
        <Expertise />
        <MessageNotifi />

@@ -2,11 +2,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Josefin Sans", "Arial Narrow" , Arial, sans-serif;
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+
+p{
+color: #22215B;
+  
 }
 .main_div{
   width: 100%;
-  height: 800px;
+  height: 850px;
   background:#d8dde6 ;
   position: relative;
 }
@@ -18,14 +23,17 @@
   padding:10px;
   width: 25%;
   height: 100px;
-  background-color: #f4f4f4;
+  background-color: #FFFFFF;
   box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
   border-radius: 15px;
 }
 
 p{
-  color: rgb(111, 113, 114);
+  color:rgba(34, 33, 91, 0.6);
 
+}
+.inner_child_time{
+  margin-left: 10px;
 }
 
 .about_us{
@@ -35,13 +43,19 @@ p{
   padding:10px;
   width: 25%;
   height: 250px;
-  background-color: #f4f4f4;
+  background-color: #FFFFFF;
   box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
   border-radius: 15px;
 }
-.about_us_list{
-  margin-top: 10px;
-  padding-left: 60px;
+.message_heding{
+  position: absolute;
+  top: 20px;
+  left: 70px;
+}
+.message_line{
+  position: absolute;
+  top: 40px;
+  left: 70px;
 }
 
 .circle{
@@ -49,13 +63,21 @@ p{
   width: 50px;
   height: 50px;
   border-radius: 50px;
-  background: rgb(209, 245, 245);
+  background:#F1F3F6;
+  float:left;
+}
+.circle_2{
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background:#F1F3F6;
   float:left;
 }
 .about_us_list li {
   display: inline-block;
   margin: 0 10px;      
-  color:rgb(10, 10, 117);
+  color:rgba(34, 33, 91, 1);
 }
 
 .profile{
@@ -65,41 +87,41 @@ p{
   padding:10px;
   width: 25%;
   height: 350px;
-  background-color: #f4f4f4;
+  background-color: #FFFFFF;
   box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
   border-radius: 15px;
 }
 
 .profi_pic{
   margin-top: 15px;
-  margin-left: 100px;
+  margin-left: 120px;
   width: 80px;
   height: 80px;
   border-radius: 50px;
-  background: rgb(209, 245, 245);
+  background: #F1F3F6;
   position: relative;
 }
 
 .pro{
   width: 80px;
   border: none;
-  background: rgb(209, 245, 245);
+  background: #F1F3F6;
   border-radius: 5px;
   margin-top: 10px;
   height: 20px;
-  margin-left: 100px;
+  margin-left: 120px;
 }
 .text1{
   margin-top: 10px;
   text-align: center;
   letter-spacing: 2px;
-  color:rgb(10, 10, 117);
+  color:rgba(34, 33, 91, 1);
 
 }
 .text2{
   text-align: center;
   font-size:0.9rem;
-  color:rgb(10, 10, 117);
+  color:rgba(34, 33, 91, 1);
 
 }
 .text3{
@@ -110,7 +132,6 @@ p{
 }
 .logos{
   height: 30px;
-  margin-left: 20px;
   width: 85%;
   margin-top: 10px;
 }
@@ -120,8 +141,9 @@ p{
   height: 40px;
   width: 120px;
   border-radius: 10px;
-  border: 1px solid rgb(10, 10, 117);
-  color:rgb(10, 10, 117); ;
+  border: 1px solid rgba(34, 33, 91, 1);
+  color:rgba(34, 33, 91, 1); 
+  background-color: #FFFFFF;
 }
 .btn2{
   margin-top: 20px;
@@ -131,7 +153,7 @@ p{
   width: 120px;
   border-radius: 10px;
   border: none;
-  background: rgb(10, 10, 117);
+  background: rgba(34, 33, 91, 1);
   color: white;
 }
 
@@ -142,7 +164,7 @@ p{
   padding:10px;
   width: 25%;
   height: 400px;
-  background-color: #f4f4f4;
+  background-color: #FFFFFF;
   box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
   border-radius: 15px;
 }
@@ -158,12 +180,12 @@ p{
   background-repeat: no-repeat;
 }
 .h22{
-  color:rgb(10, 10, 117) ;
+  color:rgba(34, 33, 91, 1) ;
 }
 .time_lernMicro{
   margin-top: 10px;
   font-size: 15px;
-  color:rgb(10, 10, 117);
+  color:rgba(34, 33, 91, 1);
 
 }
 .paragrph_learmmicro{
@@ -173,7 +195,7 @@ p{
 .readblog{
   margin-top: 10px;
   border: none;
-  color:rgb(10, 10, 117);
+  color:rgba(34, 33, 91, 1);
   letter-spacing: 0px;
   
 }
@@ -181,7 +203,7 @@ p{
   margin-top: 10px;
   margin-right: 20px;
   border: none;
-  color:rgb(10, 10, 117);
+  color:rgba(34, 33, 91, 1);
   float: right;
   background: rgb(209, 245, 245);
 }
@@ -193,7 +215,7 @@ p{
   padding:10px;
   width: 30%;
   height: 70px;
-  background-color: #f4f4f4;
+  background-color: #FFFFFF;
   box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
   border-radius: 15px;
 }
@@ -205,7 +227,7 @@ p{
   padding:10px;
   width: 30%;
   height: 80px;
-  background-color: #f4f4f4;
+  background-color: #FFFFFF;
   box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
   border-radius: 15px;
 }
@@ -213,16 +235,23 @@ p{
 b{
   font-size: 15px;
 }
-.fa{
-  color:rgb(10, 10, 117);
+
+.fa-search{
+position: absolute;
+color:rgba(34, 33, 91, 1);
+
+top:15px;
+left:10px;
 }
 
 .search_input{
+  top: 20px;
+  left: 60px;
   border: none;
+  position: absolute;
   font-size: 20px;
-  background-color: #f4f4f4;
-  padding-left: 15px;
-  margin-top: 15px;
+  background-color: #FFFFFF;
+  
 }
 .profile_list{
   padding-top: 5px;
@@ -232,7 +261,7 @@ b{
 .profile_list li {
   display: inline-block;
   margin: 0 10px;      
-  color:rgb(10, 10, 117);
+  color:rgba(34, 33, 91, 1);
 }
 
 .taske_page{
@@ -242,13 +271,13 @@ b{
   padding:10px;
   width: 30%;
   height: 420px;
-  background-color: #f4f4f4;
+  background-color: #FFFFFF;
   box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
   border-radius: 15px; 
 }
 
 .heading_task{
-  color: rgb(10, 10, 117);
+  color: rgba(34, 33, 91, 1);
   margin: 10px;
 }
 .para_task{
@@ -260,7 +289,7 @@ b{
   position: relative;
   margin-top: 30px;
   margin-left: 20px;
-  background:rgb(219, 248, 248) ;
+  background:#EEF7FE ;
   height: 40px;
   width: 90%;
   border-radius: 10px;
@@ -268,7 +297,7 @@ b{
 .second_div {
   margin-top: 10px;
   margin-left: 20px;
-  background:rgb(219, 248, 248) ;
+  background:#EEF7FE;
   height: 40px;
   width: 90%;
   border-radius: 10px;
@@ -277,7 +306,7 @@ b{
 .third_div{
   margin-top: 10px;
   margin-left: 20px;
-  background:rgb(219, 248, 248) ;
+  background:#EEF7FE ;
   height: 40px;
   width: 90%;
   border-radius: 10px;
@@ -289,7 +318,7 @@ b{
     width: 50px;
     border-radius: 50%;
     border-color:transparent;
-    background-color:rgb(10, 10, 117);
+    background-color:rgba(34, 33, 91, 1);
     color: #fff;
     font-size: 40px;
     border: none;
@@ -306,7 +335,7 @@ b{
     padding:10px;
     width: 30%;
     height: 170px;
-    background-color: #f4f4f4;
+    background-color: #FFFFFF;
     box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
     border-radius: 15px; 
   }
@@ -315,7 +344,7 @@ b{
   list-style: none;
   display: inline-block;
   margin: 0 10px;      
-  color:rgb(10, 10, 117);
+  color:rgba(34, 33, 91, 1);
 }
 .true_sign{
   margin-top: 5px;
@@ -332,11 +361,12 @@ b{
   width: 150px;
   top: 10px;
   margin-left: 60px;
-  color: rgb(10, 10, 117);
+  color: rgba(34, 33, 91, 1);
 }
 .fa-check{
   margin-top: 7px;
   margin-left: 7px;
+  color: #4CE364;
 }
 .delete_icon{
   margin-top: 13px;
@@ -348,14 +378,14 @@ b{
   color: rgb(211, 210, 210);
 }
 h4{
-  color: rgb(10, 10, 117);
+  color: rgba(34, 33, 91, 1);
 }
 .about_para{
-  color: rgb(10, 10, 117);
+  color: rgba(34, 33, 91, 1);
 }
 .fa-bell{
   margin-top: 15px;
-  margin-left: 15px;
+  margin-left: 17px;
 }
 .calender_section{
   position: relative;
@@ -364,19 +394,19 @@ h4{
   padding:10px;
   width: 25%;
   height: 300px;
-  background-color: #f4f4f4;
+  background-color: #FFFFFF;
   box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
   border-radius: 15px;
 }
 h2{
-  color: rgb(10, 10, 117);
+  color: rgba(34, 33, 91, 1);
 }
 .expert_list li{
   color: rgb(69, 38, 204);
   margin-left: 30px;
 }
 li span{
-  color:rgb(10, 10, 117) ;
+  color:rgba(34, 33, 91, 1) ;
 }
   
 a {
@@ -384,6 +414,20 @@ a {
 }
  
 
+a {
+  text-decoration: none;
+}
+.Calender_heding{
+   position: absolute;
+   top: 20px;
+   left: 30px;
+}
+.Jan_2020{
+  position: absolute;
+  right: 40px;
+  top: 15px;
+  color: rgba(34, 33, 91, 1);
+}
  
 table {
   border-collapse: collapse;
@@ -391,18 +435,15 @@ table {
 }
  
 .container {
-  top:30px;
-  
+  height: 220px;
+  left: 75%;
+  margin: -255px 0 0 -245px;
   position: absolute;
-  left: 40px;
-  background-color: #f4f4f4;
+  top: 105%;
+  width: 310px;
+  background-color: #FFFFFF;
 }
  
-.heading_caleder{
-  float: left;
-  color: rgb(10, 10, 117);
-}
-
 /* ---------- CALENDAR ---------- */
  
 .calendar {
@@ -411,7 +452,6 @@ table {
  
 .calendar header {
   position: relative;
-  display: block;
 }
  
 .calendar h2 {
@@ -421,26 +461,24 @@ table {
 .calendar thead {
   font-weight: 300;
   text-transform: uppercase;
-  color: rgb(10, 10, 117);
-
 }
  
 .calendar tbody {
-  color: rgb(10, 10, 117);
+  color: rgba(34, 33, 91, 1);
 }
  
 .calendar tbody td:hover {
-  border: 1px solid #00addf;
+  border: 1px solid rgba(34, 33, 91, 1);
 }
  
 .calendar td {
   border: 2px solid transparent;
   border-radius: 50%;
   display: inline-block;
-  height: 2em;
+  height: 2.3em;
   line-height: 2em;
   text-align: center;
-  width: 2em;
+  width: 2.7em;
 }
  
 .calendar .prev-month,
@@ -454,23 +492,24 @@ table {
 }
  
 .current-day {
-  background:rgb(10, 10, 117);
+  background: rgba(34, 33, 91, 1);
   color: #f9f9f9;
 }
  
-.event {
+.event_1 {
   cursor: pointer;
   position: relative;
 }
+
+
  
-.event:after {
-  background:rgb(10, 10, 117);
+.event_1:after {
+  background: rgba(34, 33, 91, 1);
   border-radius: 50%;
   display: block;
   content: "";
   height: 0.5em;
   left: 50%;
-  top:95%;
   margin: -0.25em 0 0 -0.25em;
   position: absolute;
   width: 0.5em;
@@ -506,4 +545,45 @@ table {
  
 .btn-next {
   right: 6em;
+}
+.downloading_part{
+  position: absolute;
+  left: 35%;
+  top: 690px;
+  
+  width: 25%;
+  height: 100px;
+  background-color: #FFFFFF;
+  box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
+  border-radius: 15px;
+}
+.blue_section{
+  position: absolute;
+  width: 70%;
+  height: 100px;
+  background-color: #567DF4;
+  border-radius: 15px 0px 0px 15px;
+}
+.fa-cloud-download{
+  color:#FFFFFF;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.downloading{
+  position: absolute;
+  top: 25px;
+  left: 70px;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+.percentage{
+  color: #FFFFFF;
+  margin-left: 70px;
+}
+.remaining{
+  margin-top: 5px;
+  margin-left: 70px;
+  color:rgba(255, 255, 255, 0.7);
+  ;
 }
